@@ -14,7 +14,7 @@ A basic Rotten Tomatoes API CodeIgniter Library wrapper.
  * @author ekaj_03 <montonjake89@gmail.com>
  * @copyright 2012 ekaj_03
  * @date 2012-09-11
- * @link
+ * @link https://github.com/ekaj03/Rotten-Tomatoes-API-CodeIgniter-Library
  * @version 0.0.1
  * 
  */
