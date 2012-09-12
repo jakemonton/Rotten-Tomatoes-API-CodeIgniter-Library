@@ -21,7 +21,7 @@ A basic Rotten Tomatoes API CodeIgniter Library wrapper.
 
 /** Sample way of using the Rotten Tomatoes API CodeIgniter Library
  * // set RottenTomatoes API Key and return format
- * $rotten = array('api_key' => 'xxxxxxxxxxxxxxxxxxxxxxxx', 'format' =>'json');
+ * $rotten = array('api_key' => 'YOUR_API_KEY', 'format' =>'json');
  * // load RottenTomatoes library
  * $this->load->library('RottenTomatoes', $rotten, 'rotten');
  * $movie_from = 'in_theaters';  // in_theaters, box_office, opening, upcoming 
