@@ -13,11 +13,13 @@ class Rotten extends CI_Controller
     
     public function __construct(){
 		parent::__construct();
-
-		// set RottenTomatoes API Key and return format
-		$rotten = array('api_key' => 'YOUR_API_KEY', 'format' =>'json');
-		// load RottenTomatoes library
+		// Load config file
+		$this->config->load('rotten_config');
+		// Set RottenTomatoes API Key and return format
+		$rotten = array('api_key' => $this->config->item('rotten_api_key'), 'format' =>'json');
+		// Load RottenTomatoes library
 		$this->load->library('RottenTomatoes', $rotten, 'rotten');
+		
 	}
 		
 	function getMovies(){
