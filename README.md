@@ -20,8 +20,8 @@ A basic Rotten Tomatoes API CodeIgniter Library wrapper.
  */
 
 /**
- * Drop the RottenTomatoes.php file onto your libraries folder.
- * Drop the rotten_config.php file onto your config folder.
+ * Drop the RottenTomatoes.php file to your libraries folder.
+ * Drop the rotten_config.php file to your config folder.
  * Drop the rotten.php file to your controllers folder. 
  */
 
