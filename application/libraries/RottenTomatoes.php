@@ -23,6 +23,10 @@
 
 	
 	function __construct($data){
+		
+		if(empty($data['api_key'])){
+			exit('API Key is required to use this library. Please register <a target="_blank" href="http://developer.rottentomatoes.com/member/register">here</a> to get your API key.');
+		}
 		/* Set API Key */
 		$this->setApiKey($data['api_key']);
 		/* Set return format */
