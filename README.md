@@ -19,6 +19,12 @@ A basic Rotten Tomatoes API CodeIgniter Library wrapper.
  * 
  */
 
+/**
+ * Drop the RottenTomatoes.php file onto your libraries folder.
+ * Drop the rotten_config.php file onto your config folder.
+ * Drop the rotten.php file to your controllers folder. 
+ */
+
 /** Sample way of using the Rotten Tomatoes API CodeIgniter Library
  * // set RottenTomatoes API Key and return format
  * $rotten = array('api_key' => 'YOUR_API_KEY', 'format' =>'json');
